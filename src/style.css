@@ -1,0 +1,46 @@
+:root{
+    --primary-color: green;
+    --secondary-color: #93D3ED;
+}
+nav{
+    font-family: 'Sacramento', cursive;
+    font-size: 28px;
+    background-color: transparent;
+}
+
+body{
+    font-family: 'Cutive Mono', monospace;
+}
+h1{
+    font-size:80px
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-weight: bolder;
+}
+p{
+    font-size:24px ;
+    line-height: 1.5;
+}
+.hero{
+    padding: 160px 0;
+}
+.certification{
+    padding: 60px;
+}
+  .skill-logo img{
+      padding-left: 60px;
+  }
+  .btn-branding-outline{
+    border-radius: 4px;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 20px;
+  }
+  .btn-branding-outline:hover {
+    cursor: pointer;
+  }
