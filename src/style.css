@@ -62,10 +62,6 @@ footer .social-media-links{
 .hero{
     padding: 160px 0;
 }
-.about-me-information{
-    line-height: 1.5;
-
-}
 .certification{
     padding: 60px;
 }
@@ -100,4 +96,28 @@ footer .social-media-links{
     cursor: pointer;
   }
 
-  
+  @media(max-width:780px){
+body{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 12px;
+}
+footer{
+    font-size: 10px;
+}
+.skill-logo img{
+    width: 25px;
+    padding: 0;
+    margin: 0;
+}
+  }
