@@ -5,7 +5,7 @@
 }
 nav{
     font-size: 30px;
-    background-color: transparent;
+
     padding: 20px 20px;
   }
   nav ul{
@@ -96,5 +96,8 @@ footer .social-media-links{
     padding: 12px 20px;
   }
   .btn-branding-outline:hover {
+      color: var(--hover-color);
     cursor: pointer;
   }
+
+  
