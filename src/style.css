@@ -4,12 +4,11 @@
     --hover-color:rgb(44, 231, 44);
 }
 nav{
-    font-size: 30px;
-
+    font-size: 24px;
     padding: 20px 20px;
+    
   }
   nav ul{
-margin: 0;
 padding: 0;
   }
   nav li{
@@ -17,14 +16,18 @@ padding: 0;
     font-size: 20px;
     list-style: none;
     margin-left: 15px;
+    line-height: 40px;
   }
   nav a{
     color: black;
     text-decoration: none;
     transition: all 100ms ease-in-out;
   }
-  nav a:hover, nav li.active a{
-    color: var(--primary-color);
+  nav a:hover{
+    color: var(--hover-color);
+  }
+  nav li.active a{
+      color: var(--primary-color);
   }
 body{
     font-family: 'Cutive Mono', monospace;
@@ -110,10 +113,17 @@ h3{
     font-size: 24px;
 }
 p{
-    font-size: 12px;
+    font-size: 16px;
 }
 footer{
     font-size: 10px;
+}
+nav{
+    font-size: 14px;
+    padding: 0;
+}
+nav li{
+    font-size: 14px;
 }
 .skill-logo img{
     width: 25px;
