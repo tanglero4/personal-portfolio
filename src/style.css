@@ -1,6 +1,7 @@
 :root{
     --primary-color: #99CAF0;
-    --secondary-color: rgb(58, 119, 58) ;
+    --secondary-color: rgb(0, 165, 0) ;
+    --hover-color:rgb(44, 231, 44);
 }
 nav{
     font-size: 30px;
@@ -53,7 +54,7 @@ footer a{
     color: var(--secondary-color);
 }
 footer a:hover{
-    color: rgb(44, 231, 44);
+    color: var(--hover-color);
 }
 footer .social-media-links{
     font-size: 26px;
@@ -68,14 +69,24 @@ footer .social-media-links{
 .certification{
     padding: 60px;
 }
-
+.contact-page{
+    background: center / contain no-repeat url("/images/background-sunflower.jpg" );
+    text-align: center;
+    line-height: 1.5;
+    color: yellow;
+}
+.contact-page a{
+    color: var(--secondary-color);
+}
+.contact-page a:hover{
+    color: var(--hover-color);
+}
 .country {
     font-size: 16px;
   }
   .skill-logo img{
       padding-left: 60px;
   }
-
   .btn-branding-outline{
     border-radius: 4px;
     color: var(--secondary-color);
