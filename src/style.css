@@ -1,18 +1,36 @@
 :root{
-    --primary-color: green;
-    --secondary-color: #93D3ED;
+    --primary-color: #99CAF0;
+    --secondary-color: rgb(58, 119, 58) ;
 }
 nav{
-    font-family: 'Sacramento', cursive;
-    font-size: 28px;
+    font-size: 30px;
     background-color: transparent;
-}
-
+    padding: 20px 20px;
+  }
+  nav ul{
+margin: 0;
+padding: 0;
+  }
+  nav li{
+    display: inline;
+    font-size: 20px;
+    list-style: none;
+    margin-left: 15px;
+  }
+  nav a{
+    color: black;
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+  }
+  nav a:hover, nav li.active a{
+    color: var(--primary-color);
+  }
 body{
     font-family: 'Cutive Mono', monospace;
 }
 h1{
-    font-size:80px
+    color: var(--primary-color);
+    font-size:80px;
 }
 h2{
     font-size: 50px;
@@ -23,6 +41,21 @@ h3{
 p{
     font-size:24px ;
     line-height: 1.5;
+    padding: 10px 10px;
+}
+footer p{
+    font-size: 16px;
+
+}
+footer a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+footer a:hover{
+    color: rgb(44, 231, 44);
+}
+footer .social-media-links{
+    font-size: 26px;
 }
 .hero{
     padding: 160px 0;
@@ -30,6 +63,10 @@ p{
 .certification{
     padding: 60px;
 }
+
+.country {
+    font-size: 16px;
+  }
   .skill-logo img{
       padding-left: 60px;
   }
