@@ -43,6 +43,7 @@ p{
     line-height: 1.5;
     padding: 10px 10px;
 }
+
 footer p{
     font-size: 16px;
 
@@ -60,6 +61,10 @@ footer .social-media-links{
 .hero{
     padding: 160px 0;
 }
+.about-me-information{
+    line-height: 1.5;
+
+}
 .certification{
     padding: 60px;
 }
@@ -70,6 +75,7 @@ footer .social-media-links{
   .skill-logo img{
       padding-left: 60px;
   }
+
   .btn-branding-outline{
     border-radius: 4px;
     color: var(--secondary-color);
