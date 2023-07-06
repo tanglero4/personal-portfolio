@@ -6,7 +6,6 @@
 nav{
     font-size: 24px;
     padding: 20px 20px;
-    
   }
   nav ul{
 padding: 0;
@@ -20,7 +19,6 @@ padding: 0;
   }
   nav a{
     color: black;
-    text-decoration: none;
     transition: all 100ms ease-in-out;
   }
   nav a:hover{
@@ -48,11 +46,13 @@ p{
     padding: 10px 10px;
 }
 p a {
-    text-decoration: none;
+ 
     color: var(--secondary-color);
     font-size: 20px;
 }
-
+a {
+    text-decoration: none;
+}
 footer p{
     font-size: 16px;
 
@@ -67,7 +67,6 @@ footer a:hover{
 footer .social-media-links{
     font-size: 26px;
 }
-
 .contact{
     font-size: 7rem;
     background: url("https://images.unsplash.com/photo-1512238701577-f182d9ef8af7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80");
